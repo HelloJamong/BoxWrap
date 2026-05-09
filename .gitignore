@@ -8,3 +8,9 @@ PLAN.md
 # Agent runtime directories
 .omc/
 .omx/
+
+# Generated build artifacts
+/assets/
+
+# Test directory
+/tests/

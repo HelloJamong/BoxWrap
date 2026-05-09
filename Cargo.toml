@@ -1,12 +1,15 @@
 [package]
 name = "boxwrap"
-version = "26.1.1"
+version = "26.1.2"
 edition = "2021"
 
 [dependencies]
 eframe = "0.31"
 rfd = "0.15"
 thiserror = "2"
+image = { version = "0.25", default-features = false, features = ["png"] }
 
-[dev-dependencies]
-zip = "2"
+[build-dependencies]
+ico = "0.3"
+image = { version = "0.25", default-features = false, features = ["png"] }
+winresource = "0.1"

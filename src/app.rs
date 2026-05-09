@@ -76,6 +76,10 @@ impl eframe::App for BoxWrapApp {
 
             ui.add_space(8.0);
             ui.label(&self.status);
+
+            ui.with_layout(egui::Layout::bottom_up(egui::Align::LEFT), |ui| {
+                ui.label(format!("v{}", env!("CARGO_PKG_VERSION")));
+            });
         });
     }
 }
