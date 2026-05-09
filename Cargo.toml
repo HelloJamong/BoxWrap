@@ -1,0 +1,12 @@
+[package]
+name = "boxwrap"
+version = "26.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = "0.31"
+rfd = "0.15"
+thiserror = "2"
+
+[dev-dependencies]
+zip = "2"

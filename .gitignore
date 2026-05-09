@@ -1,0 +1,10 @@
+# Rust
+/target
+
+# Planning documents
+SPEC.md
+PLAN.md
+
+# Agent runtime directories
+.omc/
+.omx/
